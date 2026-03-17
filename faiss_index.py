@@ -1,10 +1,3 @@
-"""
-Build the FAISS similarity index from registered employees.
-
-Usage:
-    python faiss_index.py
-Re-run every time you add or update an employee.
-"""
 import faiss
 import sqlite3
 import pickle
