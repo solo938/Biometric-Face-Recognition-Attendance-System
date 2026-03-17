@@ -1,0 +1,9 @@
+insightface==0.7.3
+onnxruntime>=1.16.0
+opencv-python>=4.8.0
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+pandas>=2.3.3
+pillow>=10.0.0
+gradio>=5.50.0
+fastrtc

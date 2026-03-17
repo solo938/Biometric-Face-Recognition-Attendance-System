@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Biometric data — NEVER commit these (contains face embeddings)
+data/attendance.db
+data/face_index.faiss
+data/id_map.npy
+data/name_map.json
+
+# Logs and exports
+logs/
+
+# InsightFace model cache
+models/
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Environment (contains local paths)
+.env
